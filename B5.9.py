@@ -31,5 +31,6 @@ with MyDecorator():
     # Используем декоратор для измерения скорости работы функций
     @mydec(10)
     def my_function():
+        count = 0
         for j in range(1000000):
-            pass
+            count += 1
