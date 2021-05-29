@@ -34,3 +34,4 @@ with MyDecorator():
         count = 0
         for j in range(1000000):
             count += 1
+        print("func done")
